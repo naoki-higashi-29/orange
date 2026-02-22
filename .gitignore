@@ -1,0 +1,11 @@
+# Rust / Cargo
+/target
+
+# 環境別設定 (.env.example をコピーして使う)
+.env
+
+# UEFI runtime variables (実行時に変化するため追跡しない)
+fs/NvVars
+
+# ビルド成果物 (cargo build 後にコピーされる)
+fs/EFI/BOOT/BOOTX64.EFI
